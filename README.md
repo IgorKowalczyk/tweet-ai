@@ -18,6 +18,13 @@ B --> C[Text Generation]
 C --> D[Generated Tweet]
 ```
 
+## 🗜️ `.env` variables
+
+```dotenv
+OPENAI_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_ORG = "org-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
 ## ⁉️ Issues
 
 If you have any issues with the page please create [new issue here](https://github.com/igorkowalczyk/tweet-ai/issues)
