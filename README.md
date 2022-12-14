@@ -7,6 +7,15 @@
 3. Install the dependencies with `pnpm install`.
 4. Run the script with `pnpm start`.
 
+## 🧠 How it works
+
+```mermaid
+graph LR
+A[User Input] --> B[OpenAI API]
+B --> C[Text Generation]
+C --> D[Generated Tweet]
+```
+
 ## ⁉️ Issues
 
 If you have any issues with the page please create [new issue here](https://github.com/igorkowalczyk/tweet-ai/issues)
