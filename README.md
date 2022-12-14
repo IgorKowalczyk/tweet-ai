@@ -21,4 +21,4 @@ When submitting a pull request:
 
 ## 📋 License
 
-This project is licensed under the MIT. See the [LICENSE](https://github.com/igorkowalczyk/tweet-ai/blob/master/license.md) file for details
+This project is licensed under the MIT. See the [LICENSE](https://github.com/igorkowalczyk/tweet-ai/blob/main/license.md) file for details
