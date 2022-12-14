@@ -1,7 +1,9 @@
 # 🐦 Twitter + OpenAI
+
 > This is a simple example of how to use the [OpenAI API](https://openai.com/) to generate tweets from a given prompt.
 
 ## 🔩 Setup
+
 1. Create an account on [OpenAI](https://openai.com/) and get your API key.
 2. Fill the `OPENAI_KEY` and `OPENAI_ORG` variables in `.env` with your API key and organization ID.
 3. Install the dependencies with `pnpm install`.
