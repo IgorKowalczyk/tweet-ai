@@ -1,4 +1,4 @@
-# Twitter + OpenAI
+# 🐦 Twitter + OpenAI
 > This is a simple example of how to use the [OpenAI API](https://openai.com/) to generate tweets from a given prompt.
 
 ## 🔩 Setup
