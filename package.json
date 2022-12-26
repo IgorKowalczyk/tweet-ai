@@ -33,5 +33,6 @@
  "homepage": "https://github.com/IgorKowalczyk/tweet-ai#readme",
  "devDependencies": {
   "prettier": "^2.8.1"
- }
+ },
+ "packageManager": "pnpm@7.20.0"
 }
