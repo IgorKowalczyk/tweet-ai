@@ -1,9 +1,9 @@
 import ora from "ora";
 import prompts from "prompts";
-import * as dotenv from "dotenv";
-dotenv.config();
-import { Configuration, OpenAIApi } from "openai";
 import chalk from "chalk";
+import { Configuration, OpenAIApi } from "openai";
+import "dotenv/config";
+
 if (!process.env.OPENAI_ORG) {
  throw new Error("OPENAI_ORG is not defined");
 }
@@ -11,12 +11,12 @@ if (!process.env.OPENAI_KEY) {
  throw new Error("OPENAI_KEY is not defined");
 }
 
-const configuration = new Configuration({
- organization: process.env.OPENAI_ORG,
- apiKey: process.env.OPENAI_KEY,
-});
-
-const openai = new OpenAIApi(configuration);
+const openai = new OpenAIApi(
+ new Configuration({
+  organization: process.env.OPENAI_ORG,
+  apiKey: process.env.OPENAI_KEY,
+ })
+);
 
 const generate = async () => {
  try {
@@ -42,10 +42,12 @@ const generate = async () => {
    model: "text-davinci-003",
    prompt: prompt.toString(),
    temperature: 0,
+   /* eslint-disable no-return-assign, camelcase */
    max_tokens: 60,
    top_p: 1,
    frequency_penalty: 0,
    presence_penalty: 0,
+   /* eslint-enable no-return-assign, camelcase */
   });
 
   spinner.stop();

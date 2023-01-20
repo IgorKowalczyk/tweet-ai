@@ -1,38 +1,41 @@
 {
- "name": "tweet-ai",
- "version": "1.0.0",
- "description": "🐦 Command line tool to automatically generate tweets using OpenAI API",
- "main": "index.js",
- "type": "module",
- "dependencies": {
-  "chalk": "5.2.0",
-  "dotenv": "16.0.3",
-  "openai": "3.1.0",
-  "ora": "6.1.2",
-  "prompts": "2.4.2"
- },
- "scripts": {
-  "start": "node index.js",
-  "format": "prettier --write . --ignore-unknown",
-  "format:check": "prettier --check ."
- },
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/IgorKowalczyk/tweet-ai.git"
- },
- "keywords": [
-  "openai",
-  "twitter",
-  "ai"
- ],
- "author": "Igor Kowalczyk",
- "license": "MIT",
- "bugs": {
-  "url": "https://github.com/IgorKowalczyk/tweet-ai/issues"
- },
- "homepage": "https://github.com/IgorKowalczyk/tweet-ai#readme",
- "devDependencies": {
-  "prettier": "2.8.3"
- },
- "packageManager": "pnpm@7.25.1"
+  "name": "tweet-ai",
+  "version": "1.0.0",
+  "description": "🐦 Command line tool to automatically generate tweets using OpenAI API",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "chalk": "5.2.0",
+    "dotenv": "16.0.3",
+    "openai": "3.1.0",
+    "ora": "6.1.2",
+    "prompts": "2.4.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write . --ignore-unknown",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --ext .js,.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorKowalczyk/tweet-ai.git"
+  },
+  "keywords": [
+    "openai",
+    "twitter",
+    "ai"
+  ],
+  "author": "Igor Kowalczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgorKowalczyk/tweet-ai/issues"
+  },
+  "homepage": "https://github.com/IgorKowalczyk/tweet-ai#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "2.8.3"
+  },
+  "packageManager": "pnpm@7.25.1"
 }
