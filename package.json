@@ -1,6 +1,6 @@
 {
   "name": "tweet-ai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🐦 Command line tool to automatically generate tweets using OpenAI API",
   "author": "Igor Kowalczyk",
   "license": "MIT",
