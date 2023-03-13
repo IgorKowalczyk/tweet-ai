@@ -1,7 +1,7 @@
-import ora from "ora";
-import prompts from "prompts";
 import chalk from "chalk";
 import { Configuration, OpenAIApi } from "openai";
+import ora from "ora";
+import prompts from "prompts";
 import "dotenv/config";
 
 if (!process.env.OPENAI_ORG) {
