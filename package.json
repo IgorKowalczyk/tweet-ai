@@ -1,6 +1,6 @@
 {
   "name": "tweet-ai",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🐦 Command line tool to automatically generate tweets using OpenAI API",
   "author": "Igor Kowalczyk",
   "license": "MIT",
@@ -23,8 +23,7 @@
   "devDependencies": {
     "@igorkowalczyk/eslint-config": "1.0.3",
     "@igorkowalczyk/prettier-config": "1.0.3",
-    "eslint": "8.32.0",
-    "eslint-config-prettier": "8.7.0",
+    "eslint": "8.36.0",
     "prettier": "2.8.4"
   },
   "keywords": [
