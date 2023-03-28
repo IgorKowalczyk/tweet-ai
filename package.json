@@ -39,5 +39,5 @@
     "url": "https://github.com/IgorKowalczyk/tweet-ai/issues"
   },
   "homepage": "https://github.com/IgorKowalczyk/tweet-ai#readme",
-  "packageManager": "pnpm@7.30.3"
+  "packageManager": "pnpm@7.30.5"
 }
