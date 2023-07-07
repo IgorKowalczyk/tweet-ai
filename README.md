@@ -19,6 +19,7 @@ C --> D[Generated Tweet]
 ```
 
 ## 📷 Example
+
 https://user-images.githubusercontent.com/49127376/207709937-70a8abd2-6a83-4785-94ea-706bde0e6ba9.mp4
 
 ## 🗜️ `.env` variables
