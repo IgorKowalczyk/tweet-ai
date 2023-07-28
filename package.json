@@ -21,7 +21,7 @@
     "prompts": "2.4.2"
   },
   "devDependencies": {
-    "@igorkowalczyk/eslint-config": "1.5.3",
+    "@igorkowalczyk/eslint-config": "1.5.4",
     "@igorkowalczyk/prettier-config": "1.5.3",
     "eslint": "8.45.0",
     "prettier": "3.0.0"
