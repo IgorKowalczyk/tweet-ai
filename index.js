@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { Configuration, OpenAIApi } from "openai";
+import OpenAI from "openai";
 import ora from "ora";
 import prompts from "prompts";
 import "dotenv/config";
@@ -11,12 +11,10 @@ if (!process.env.OPENAI_KEY) {
  throw new Error("OPENAI_KEY is not defined");
 }
 
-const openai = new OpenAIApi(
- new Configuration({
-  organization: process.env.OPENAI_ORG,
-  apiKey: process.env.OPENAI_KEY,
- })
-);
+const openai = new OpenAI({
+ organization: process.env.OPENAI_ORG,
+ apiKey: process.env.OPENAI_KEY,
+});
 
 const generate = async () => {
  try {
@@ -38,7 +36,7 @@ const generate = async () => {
   const spinner = ora("Generating tweet...").start();
   const prompt = `Tweet ${answer.tweet}`;
 
-  const response = await openai.createCompletion({
+  const response = await openai.completions.create({
    model: "text-davinci-003",
    prompt: prompt.toString(),
    temperature: 0,
@@ -52,7 +50,7 @@ const generate = async () => {
 
   spinner.stop();
 
-  console.log(chalk.green.bold("🐦") + chalk.bold(" Generated tweet: ") + response.data.choices[0].text.trim() + "\n");
+  console.log(chalk.green.bold("🐦") + chalk.bold(" Generated tweet: ") + response.choices[0].text.trim() + "\n");
 
   const rerun = await prompts({
    type: "confirm",
@@ -68,6 +66,7 @@ const generate = async () => {
   }
  } catch (error) {
   console.log(chalk.red.bold("\n✖") + chalk.bold(" Error: ") + error);
+  process.exit(1);
  }
 };
 
