@@ -1,6 +1,18 @@
-# 🐦 Twitter + OpenAI
+![Tweet-ai header](https://github.com/IgorKowalczyk/tweet-ai/assets/49127376/d0a19944-4861-487b-8c8a-663540f5ca00)
 
-> This is a simple example of how to use the [OpenAI API](https://openai.com/) to generate tweets from a given prompt.
+<div align="center">
+  <a aria-label="GitHub License" href="https://github.com/igorkowalczyk/tweet-ai/blob/master/license.md">
+    <img src="https://img.shields.io/github/license/igorkowalczyk/tweet-ai?color=1D9BF0&logo=github&style=flat&label=License">
+  </a>
+  <a aria-label="Version" href="https://github.com/igorkowalczyk/tweet-ai/releases">
+    <img src="https://img.shields.io/github/v/release/igorkowalczyk/tweet-ai?color=1D9BF0&logo=github&style=flat&label=Version">
+  </a>
+  <a aria-label="Discord" href="https://igorkowalczyk.dev/discord">
+    <img src="https://img.shields.io/discord/695282860399001640?color=1D9BF0&logo=discord&style=flat&logoColor=fff&label=Discord">
+  </a>
+</div>
+
+---
 
 ## 🔩 Setup
 
