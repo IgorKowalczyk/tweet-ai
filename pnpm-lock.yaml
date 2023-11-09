@@ -12,8 +12,8 @@ dependencies:
     specifier: 16.3.1
     version: 16.3.1
   openai:
-    specifier: 4.16.1
-    version: 4.16.1
+    specifier: 4.17.0
+    version: 4.17.0
   ora:
     specifier: 7.0.1
     version: 7.0.1
@@ -1557,8 +1557,8 @@ packages:
       is-wsl: 2.2.0
     dev: true
 
-  /openai@4.16.1:
-    resolution: {integrity: sha512-Gr+uqUN1ICSk6VhrX64E+zL7skjI1TgPr/XUN+ZQuNLLOvx15+XZulx/lSW4wFEAQzgjBDlMBbBeikguGIjiMg==}
+  /openai@4.17.0:
+    resolution: {integrity: sha512-fJUdfOzKE49L2oitQ+L8oCYcTDI2oLOYmQvnPjklFrmH7M+8w65/8Ag9120ky1A3Xr3lCivALs2oBmNaZIvTgg==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.5
