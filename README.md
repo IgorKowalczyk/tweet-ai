@@ -17,9 +17,10 @@
 ## 🔩 Setup
 
 1. Create an account on [OpenAI](https://openai.com/) and get your API key.
-2. Fill the `OPENAI_KEY` and `OPENAI_ORG` variables in `.env` with your API key and organization ID.
-3. Install the dependencies with `pnpm install`.
-4. Run the script with `pnpm start`.
+2. Copy `.env.example` to `.env`.
+3. Fill the `OPENAI_KEY` and `OPENAI_ORG` variables in `.env` with your API key and organization ID.
+4. Install the dependencies with `pnpm install`.
+5. Run the script with `pnpm start`.
 
 ## 🧠 How it works
 
@@ -40,6 +41,9 @@ https://user-images.githubusercontent.com/49127376/207709937-70a8abd2-6a83-4785-
 OPENAI_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 OPENAI_ORG = "org-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
+
+> [!NOTE]
+> You can find your API key and organization ID on [OpenAI](https://beta.openai.com/account/api-keys).
 
 ## ⁉️ Issues
 

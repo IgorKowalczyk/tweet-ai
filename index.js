@@ -4,12 +4,8 @@ import ora from "ora";
 import prompts from "prompts";
 import "dotenv/config";
 
-if (!process.env.OPENAI_ORG) {
- throw new Error("OPENAI_ORG is not defined");
-}
-if (!process.env.OPENAI_KEY) {
- throw new Error("OPENAI_KEY is not defined");
-}
+if (!process.env.OPENAI_ORG) throw new Error("OPENAI_ORG is not defined");
+if (!process.env.OPENAI_KEY) throw new Error("OPENAI_KEY is not defined");
 
 const openai = new OpenAI({
  organization: process.env.OPENAI_ORG,
@@ -49,7 +45,6 @@ const generate = async () => {
   });
 
   spinner.stop();
-
   console.log(chalk.green.bold("🐦") + chalk.bold(" Generated tweet: ") + response.choices[0].text.trim() + "\n");
 
   const rerun = await prompts({
@@ -59,11 +54,7 @@ const generate = async () => {
    initial: true,
   });
 
-  if (rerun.value) {
-   return generate();
-  } else {
-   console.log(chalk.green.bold("👋") + chalk.bold(" Bye!"));
-  }
+  rerun.value ? generate() : console.log(chalk.green.bold("👋") + chalk.bold(" Bye!"));
  } catch (error) {
   console.log(chalk.red.bold("\n✖") + chalk.bold(" Error: ") + error);
   process.exit(1);
