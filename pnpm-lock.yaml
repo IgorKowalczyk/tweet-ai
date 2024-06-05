@@ -15,8 +15,8 @@ importers:
         specifier: 16.4.5
         version: 16.4.5
       openai:
-        specifier: 4.47.3
-        version: 4.47.3
+        specifier: 4.48.1
+        version: 4.48.1
       ora:
         specifier: 8.0.1
         version: 8.0.1
@@ -818,8 +818,8 @@ packages:
     resolution: {integrity: sha512-OS+QTnw1/4vrf+9hh1jc1jnYjzSG4ttTBB8UxOwAnInG3Uo4ssetzC1ihqaIHjLJnA5GGlRl6QlZXOTQhRBUvg==}
     engines: {node: '>=14.16'}
 
-  openai@4.47.3:
-    resolution: {integrity: sha512-470d4ibH5kizXflCzgur22GpM4nOjrg7WQ9jTOa3dNKEn248oBy4+pjOyfcFR4V4YUn/YlDNjp6h83PbviCCKQ==}
+  openai@4.48.1:
+    resolution: {integrity: sha512-nlEzUAzDG1GsTlBVAFFtB0WZB8BFY+XU7o4oslzC7YMZ9PlgDixnbM49hXRWzv5OztevSn64hVKqptvzHq5/6Q==}
     hasBin: true
 
   optionator@0.9.3:
@@ -1936,7 +1936,7 @@ snapshots:
       is-inside-container: 1.0.0
       is-wsl: 2.2.0
 
-  openai@4.47.3:
+  openai@4.48.1:
     dependencies:
       '@types/node': 18.17.5
       '@types/node-fetch': 2.6.4
