@@ -14,9 +14,13 @@
 
 ---
 
+<!-- prettier-ignore-start -->
 ## ⚠️ Deprecation Notice
 
-> [!IMPORTANT] > **This project is no longer maintained and has been deprecated.** This means that I will not be providing any further updates, bug fixes, or support. You are welcome to use the code as-is, but I recommend forking the project if you want to make any changes.
+> [!IMPORTANT]
+> **This project is no longer maintained and has been deprecated.** This means that I will not be providing any further updates, bug fixes, or support. You are welcome to use the code as-is, but I recommend forking the project if you want to make any changes.
+
+<!-- prettier-ignore-end -->
 
 ## 🔩 Setup
 
