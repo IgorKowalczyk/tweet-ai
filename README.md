@@ -14,6 +14,10 @@
 
 ---
 
+## ⚠️ Deprecation Notice
+
+> [!IMPORTANT] > **This project is no longer maintained and has been deprecated.** This means that I will not be providing any further updates, bug fixes, or support. You are welcome to use the code as-is, but I recommend forking the project if you want to make any changes.
+
 ## 🔩 Setup
 
 1. Create an account on [OpenAI](https://openai.com/) and get your API key.
